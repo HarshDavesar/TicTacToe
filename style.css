@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    background-color: #3D8D7A;
+}
+
+.nav {
+    width: 15rem;
+    height: 5rem;
+    background-color: #B3D8A8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 1000;
+    font-family: 'Chivo', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Krub', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+
+}
+
+#winMesg {
+
+    height: 5rem;
+
+
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+.box {
+    color: #08A045;
+    font-size: 40px;
+    height: 18vmin;
+    width: 18vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Chivo', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Krub', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    ;
+    border-radius: 1rem;
+    border: none;
+    background-color: #073B3A;
+}
+
+.reset {
+    margin: 10px;
+    padding: 10px;
+    height: 50px;
+    width: 100px;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    background-color: #1C1C1C;
+
+}
+
+.reset:hover {
+    transition: 0.5s;
+    color: #b7bbb4;
+}
+
+
+.newbtn {
+    height: 50px;
+    width: 100px;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 10px;
+    background-color: #1C1C1C;
+    color: white;
+
+
+}
+
+.newbtn:hover {
+    transition: 0.5s;
+    color: #b7bbb4;
+}
+
+
+.msg-container {
+    align-items: center;
+    height: 130px;
+    width: 100%;
+}
+
+
+#msg {
+    align-items: center;
+}
+
+#msg {
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    padding: 30px;
+    font-weight: 1000;
+    font-family: 'Chivo', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Krub', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.hide {
+    display: none;
+}
+/* Responsive Design */
+@media (max-width: 600px) {
+    .game {
+        width: 90vmin;
+        height: 90vmin;
+    }
+
+    .box {
+        height: 28vmin;
+        width: 28vmin;
+        font-size: 30px;
+    }
+
+    .nav {
+        margin-top: 2rem;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .reset, .newbtn {
+        width: 90px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    #msg {
+        font-size: 24px;
+        padding: 20px;
+    }
+}
